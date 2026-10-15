@@ -1,0 +1,78 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f4f8;
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .login-box {
+            background: white;
+            width: 320px;
+            padding: 28px;
+            border-radius: 12px;
+            box-shadow: 0 4px 18px #0002;
+        }
+
+        input, button {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 11px;
+            margin-top: 12px;
+        }
+
+        button {
+            background: #1769e0;
+            color: white;
+            border: 0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #message {
+            color: #c62828;
+            margin-top: 14px;
+            min-height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>Login</h2>
+
+        <form id="loginForm">
+            <input
+                type="text"
+                name="username"
+                placeholder="Username"
+                autocomplete="username"
+                required
+            >
+
+            <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                autocomplete="current-password"
+                required
+            >
+
+            <button type="submit" id="loginButton">Login</button>
+        </form>
+
+        <p id="message" role="alert"></p>
+    </div>
+
+    <script src="/login.js"></script>
+</body>
+</html>
+```

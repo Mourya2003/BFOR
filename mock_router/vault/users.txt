@@ -1,0 +1,10 @@
+admin:admin123
+john:john123
+alice:alice123
+bob:bob123
+emma:emma123
+rahul:rahul123
+sam:sam123
+lisa:lisa123
+mike:mike123
+guest:guest123
